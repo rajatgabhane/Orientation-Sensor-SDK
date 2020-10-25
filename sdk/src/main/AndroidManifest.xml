@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tesseract.android.sdk">
+    <application android:allowBackup="true">
+    <service android:name=".OrientationService">
+        <intent-filter>
+            <action android:name="com.tesseract.android.sdk.OrientationService" />
+        </intent-filter>
+    </service>
+    </application>
+</manifest>
